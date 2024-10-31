@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/perfect-portal-intake-form",
+	"version": "3.0.3",
+	"title": "Perfect Portal Intake Form",
+	"category": "widgets",
+	"description": "Gutenberg block to display Intake Forms from Perfect Portal.",
+	"icon": "file:./icon.svg",
+	"example": {},
+	"supports": {
+		"color": {
+			"background": false,
+			"text": false
+		},
+		"html": false,
+		"typography": {
+			"fontSize": false
+		}
+	},
+	"textdomain": "perfect-portal-widgets",
+	"editorScript": "file:./index.js",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"perfectPortalRegion": {
+			"type": "string"
+		},
+		"leadIntakeGuid": {
+			"type": "string"
+		}
+	}
+}

@@ -1,0 +1,1 @@
+console.log("Perfect Portal - Review Widget enabled");

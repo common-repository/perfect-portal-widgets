@@ -1,0 +1,87 @@
+.alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert {
+    padding: 15px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.pp-hide {
+	display: none !important;
+}
+p.Success {
+	color:green;
+}
+
+p.Error {
+	color:red;
+}
+
+img.adminLogo {
+    max-height: 45px;
+    float: left;
+	margin-right: 10px;
+}
+
+.toplevel_page_perfect-portal-settings .wp-menu-image {
+	background-image: url(https://webcalc.perfectportal.co.uk/assets/images/icons/CCCCCC/000000/ppLogo.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+
+}
+
+.admin-color-light .toplevel_page_perfect-portal-settings .wp-menu-image {
+	background-image: url(https://webcalc.perfectportal.co.uk/assets/images/icons/777777/000000/ppLogo.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+
+}
+.admin-color-light .toplevel_page_perfect-portal-settings:hover .wp-menu-image {
+	background-image: url(https://webcalc.perfectportal.co.uk/assets/images/icons/CCCCCC/000000/ppLogo.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+}
+.admin-color-ectoplasm .toplevel_page_perfect-portal-settings:hover .wp-menu-image {
+	background-image: url(https://webcalc.perfectportal.co.uk/assets/images/icons/FFFFFF/000000/ppLogo.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+}
+.admin-color-fresh .toplevel_page_perfect-portal-settings:hover .wp-menu-image {
+	background-image: url(https://webcalc.perfectportal.co.uk/assets/images/icons/00B9EB/000000/ppLogo.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+}
+.admin-color-fresh .current.toplevel_page_perfect-portal-settings:hover .wp-menu-image {
+	background-image: url(https://webcalc.perfectportal.co.uk/assets/images/icons/FFFFFF/000000/ppLogo.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+}
+.pp-preview {
+	border: 1px solid #ccc;
+	text-align: center;
+}
+
+
+
+.toplevel_page_perfect-portal-settings .current .wp-menu-image {
+	background-image: url(https://webcalc.perfectportal.co.uk/assets/images/icons/FFFFFF/000000/ppLogo.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+}
+
+
+body.admin-color-blue .toplevel_page_perfect-portal-settings .wp-menu-image {
+	background-image: url(https://webcalc.perfectportal.co.uk/assets/images/icons/FFFFFF/000000/ppLogo.svg);
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: 16px 16px;
+}

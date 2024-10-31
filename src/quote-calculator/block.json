@@ -1,0 +1,35 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "create-block/perfect-portal-quote-calculator",
+	"version": "3.0.3",
+	"title": "Perfect Portal Quote Calculator",
+	"category": "widgets",
+	"description": "Gutenberg block to display Quote Calculator forms from Perfect Portal.",
+	"icon": "file:./icon.svg",
+	"example": {},
+	"supports": {
+		"color": {
+			"background": false,
+			"text": false
+		},
+		"html": false,
+		"typography": {
+			"fontSize": false
+		}
+	},
+	"textdomain": "perfect-portal-widgets",
+	"editorScript": "file:./index.js",
+	"viewScript": "file:./view.js",
+	"attributes": {
+		"perfectPortalRegion": {
+			"type": "string"
+		},
+		"leadIntakeGuid": {
+			"type": "string"
+		},
+		"intakeFormType": {
+			"type": "string"
+		}
+	}
+}
